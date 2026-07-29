@@ -59,10 +59,10 @@ FEATURE_SETS = {
 # Which attack folder names train which pathway. stealthyS1 is absent from
 # every group by design: it is the unseen, test-only type of Table III.
 ATTACK_GROUPS = {
-    'ctrl':     {'stealthyACT1', 'stealthyACT2', 'stealthyACT3', 'stealthyACT4'},
-    'wheel_v':  {'stealthyS10'},
-    'gps_imu':  {'stealthyS4', 'stealthyS5'},
-    'gps_xy_v': {'stealthyS2', 'stealthyS6'},
+    'ctrl':     {'stealthyACT1', 'stealthyACT2', 'stealthyACT3'},
+    'wheel_v':  {'stealthyS5'},
+    'gps_imu':  {'stealthyS4'},
+    'gps_xy_v': {'stealthyS2'},
     'gps_xy_a': {'stealthyS3'},
 }
 KFDA_GROUPS = list(FEATURE_SETS.keys())
