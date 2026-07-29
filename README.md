@@ -76,7 +76,5 @@ and serves as the unseen test-only type of Table III. Folders named
 | ELITE gate: 50-frame sustain, 1.10 peak | `ELITE_SUSTAIN_MIN/_PEAK_MIN` |
 | Active pathway: validation F1 >= 0.4    | `ACTIVE_F1_THRESHOLD`         |
 | Rolling windows W = 20 / 80 / 160       | `CHANNEL_WINDOW`              |
-
-  note    = {under review}
 }
 ```
