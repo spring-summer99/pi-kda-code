@@ -54,9 +54,9 @@ both the precision and the recall denominators.
 
 | Paper | Code group | Trains on (code folder names) |
 |-------|------------|-------------------------------|
-| P_act | `ctrl`     | `stealthyACT1/ACT3/ACT4`      |
-| P_odo | `wheel_v`  | `stealthyS10`                 |
-| P_gi  | `gps_imu`  | `stealthyS4`, `stealthyS5`    |
+| P_act | `ctrl`     | `stealthyACT1/ACT2/ACT3`      |
+| P_odo | `wheel_v`  | `stealthyS5`                 |
+| P_gi  | `gps_imu`  | `stealthyS4`    |
 | P_pv  | `gps_xy_v` | `stealthyS2`                  |
 | P_pa  | `gps_xy_a` | `stealthyS3`                  |
 
